@@ -1,0 +1,53 @@
+    body {
+      background: darkblue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .sessao-flutuante {
+      background: linear-gradient(135deg, #f8fafc, #e0f2fe);
+      padding-bottom: 30px;
+      border-radius: 20px;
+      max-width: 1000px;
+      text-align: center;
+    }
+
+    .sessaocompleta {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .sessao-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .sessao-links a {
+      display: inline-block;
+      background: linear-gradient(135deg, #4f46e5, #3b82f6);
+      color: #ffffff;
+      text-decoration: none;
+      padding: 1rem 1.5rem;
+      border-radius: 12px;
+      font-size: 1.05rem;
+      font-weight: 600;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+      transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+    }
+
+    .sessao-links a:hover {
+      background: linear-gradient(135deg, #4338ca, #2563eb);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
