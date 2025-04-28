@@ -51,3 +51,20 @@
       font-size: 2rem;
       margin-bottom: 1rem;
     }
+
+    /* Media Queries */
+    @media (max-width: 600px) {
+        .sessaocompleta {
+          padding: 80px;
+        }
+
+        h1 {
+          margin: 20px;
+        }
+
+        .sessao-links a {
+          width: 25%;
+          font-size: 1rem;
+          font-weight: normal;
+        }
+    }
