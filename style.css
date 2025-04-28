@@ -68,3 +68,18 @@
           font-weight: normal;
         }
     }
+
+    @media (max-width: 480px) {
+      .sessaocompleta {
+        padding: 15%;
+        padding-block: 60%;
+      }
+
+      h1 {
+        font-size: 25px;
+      }
+
+      .sessao-links a {
+        width: 50%;
+      }
+    }
