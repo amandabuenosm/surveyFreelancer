@@ -55,7 +55,7 @@
     /* Media Queries */
     @media (max-width: 600px) {
         .sessaocompleta {
-          padding: 80px;
+          padding: 8%;
         }
 
         h1 {
