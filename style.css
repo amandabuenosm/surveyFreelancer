@@ -1,15 +1,18 @@
     body {
-      background: darkblue;
+      background-image: url(https://images7.alphacoders.com/858/858366.jpg);
+      background-attachment: fixed;
       display: flex;
       align-items: center;
       justify-content: center;
     }
 
     .sessao-flutuante {
-      background: linear-gradient(135deg, #f8fafc, #e0f2fe);
       padding-bottom: 30px;
+      color: white;
+      background-color: #00008161;
       border-radius: 20px;
       max-width: 1000px;
+      font-family: Script MT;
       text-align: center;
     }
 
@@ -25,34 +28,37 @@
       flex-wrap: wrap;
       gap: 20px;
       justify-content: center;
+      align-items: center;
     }
 
     .sessao-links a {
-      display: inline-block;
-      background: linear-gradient(135deg, #4f46e5, #3b82f6);
-      color: #ffffff;
-      text-decoration: none;
-      padding: 1rem 1.5rem;
-      border-radius: 12px;
-      font-size: 1.05rem;
-      font-weight: 600;
-      text-align: center;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
-      transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+    background-color: #0e0e87;
+    color: white;
+    text-decoration: none;
+    padding: 20px 25px;
+    font-family: Bookman Old Style;
+    font-weight: bold;
+    border-radius: 12px;
+    font-size: 18px;
+    text-align: center;
     }
 
     .sessao-links a:hover {
-      background: linear-gradient(135deg, #4338ca, #2563eb);
-      transform: translateY(-3px);
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+      background-color: rgb(7 55 105);
+      transform: translateY(-5px);
     }
 
     h1 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
+      font-size: 2.25rem;
     }
 
     /* Media Queries */
+    @media (max-width: 1000px) {
+      body {
+        background-size: 1000px;
+      }
+    }
+
     @media (max-width: 600px) {
         .sessaocompleta {
           padding: 8%;
