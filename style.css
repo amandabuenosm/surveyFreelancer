@@ -12,7 +12,7 @@
       background-color: #00008161;
       border-radius: 20px;
       max-width: 1000px;
-      font-family: 'Felipa';
+      font-family: 'Felipa', cursive;
       text-align: center;
     }
 
@@ -36,7 +36,7 @@
     color: white;
     text-decoration: none;
     padding: 20px 25px;
-    font-family: 'Federo';
+    font-family: 'Federo', serif;
     font-weight: bold;
     border-radius: 12px;
     font-size: 18px;
