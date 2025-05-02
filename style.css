@@ -1,91 +1,90 @@
-    body {
-      background-image: url(https://images7.alphacoders.com/858/858366.jpg);
-      background-attachment: fixed;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+body {
+  background-image: url(https://images7.alphacoders.com/858/858366.jpg);
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-    .sessao-flutuante {
-      padding-bottom: 30px;
-      color: white;
-      background-color: #00008161;
-      border-radius: 20px;
-      max-width: 1000px;
-      font-family: 'Felipa', cursive;
-      text-align: center;
-    }
+.sessao-flutuante {
+  padding-bottom: 30px;
+  color: white;
+  background-color: #00008161;
+  border-radius: 20px;
+  max-width: 1000px;
+  font-family: 'Great Vibes';
+  text-align: center;
+}
 
+.sessaocompleta {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sessao-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sessao-links a {
+background-color: #0e0e87;
+color: white;
+text-decoration: none;
+padding: 20px 25px;
+font-family: 'Playfair Display';
+border-radius: 12px;
+font-size: 18px;
+text-align: center;
+}
+
+.sessao-links a:hover {
+  background-color: rgb(7 55 105);
+  transform: translateY(-5px);
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+/* Media Queries */
+@media (max-width: 1000px) {
+  body {
+    background-size: 1000px;
+  }
+}
+
+@media (max-width: 600px) {
     .sessaocompleta {
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .sessao-links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .sessao-links a {
-    background-color: #0e0e87;
-    color: white;
-    text-decoration: none;
-    padding: 20px 25px;
-    font-family: 'Federo', serif;
-    font-weight: bold;
-    border-radius: 12px;
-    font-size: 18px;
-    text-align: center;
-    }
-
-    .sessao-links a:hover {
-      background-color: rgb(7 55 105);
-      transform: translateY(-5px);
+      padding: 8%;
     }
 
     h1 {
-      font-size: 2.25rem;
+      margin: 20px;
     }
 
-    /* Media Queries */
-    @media (max-width: 1000px) {
-      body {
-        background-size: 1000px;
-      }
+    .sessao-links a {
+      width: 25%;
+      font-size: 1rem;
+      font-weight: normal;
     }
+}
 
-    @media (max-width: 600px) {
-        .sessaocompleta {
-          padding: 8%;
-        }
+@media (max-width: 480px) {
+  .sessaocompleta {
+    padding: 15%;
+    padding-block: 55%;
+  }
 
-        h1 {
-          margin: 20px;
-        }
+  h1 {
+    font-size: 25px;
+  }
 
-        .sessao-links a {
-          width: 25%;
-          font-size: 1rem;
-          font-weight: normal;
-        }
-    }
-
-    @media (max-width: 480px) {
-      .sessaocompleta {
-        padding: 15%;
-        padding-block: 55%;
-      }
-
-      h1 {
-        font-size: 25px;
-      }
-
-      .sessao-links a {
-        width: 50%;
-      }
-    }
+  .sessao-links a {
+    width: 50%;
+  }
+}
