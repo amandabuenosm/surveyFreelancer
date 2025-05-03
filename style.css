@@ -32,14 +32,14 @@ body {
 }
 
 .sessao-links a {
-background-color: #0e0e87;
-color: white;
-text-decoration: none;
-padding: 20px 25px;
-font-family: 'Playfair Display';
-border-radius: 12px;
-font-size: 18px;
-text-align: center;
+ background-color: #0e0e87;
+ color: white;
+ text-decoration: none;
+ padding: 20px 25px;
+ font-family: 'Playfair Display';
+ border-radius: 12px;
+ font-size: 18px;
+ text-align: center;
 }
 
 .sessao-links a:hover {
@@ -55,6 +55,7 @@ h1 {
 @media (max-width: 1000px) {
   body {
     background-size: 1000px;
+    background-attachment: scroll;
   }
 }
 
