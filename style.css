@@ -20,7 +20,7 @@ body {
 }
 
 .sessaocompleta {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,7 +59,7 @@ h1 {
 @media (max-width: 1200px) {
   .sessaocompleta {
     padding: 8%;
-    height: auto;
+    min-height: auto;
   }
 
   .sessao-links a {
