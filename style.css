@@ -1,10 +1,10 @@
-@charset="utf-8";
+@charset "UTF-8";
 
 body {
   background-image: url(https://images7.alphacoders.com/858/858366.jpg);
   background-attachment: fixed;
   margin: 0;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,17 +56,20 @@ h1 {
 }
 
 /* Media Queries */
-@media (max-width: 1000px) {
-  body {
-    background-size: 1000px;
-    background-attachment: fixed;
+@media (max-width: 1200px) {
+  .sessaocompleta {
+    padding: 8%;
+    height: auto;
+  }
+
+  .sessao-links a {
+    padding: auto;
   }
 }
 
 @media (max-width: 600px) {
-  .sessaocompleta {
-    padding: 8% 0;
-    height: auto;
+  body {
+    background-position: 30% 30%;
   }
 
   h1 {
