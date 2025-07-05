@@ -4,7 +4,7 @@ body {
   background-image: url(https://images7.alphacoders.com/858/858366.jpg);
   background-attachment: fixed;
   margin: 0;
-  min-height: 100vh;
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,11 +20,10 @@ body {
 }
 
 .sessaocompleta {
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
 }
 
 .sessao-links {
